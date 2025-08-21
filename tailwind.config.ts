@@ -61,6 +61,38 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				dashboard: {
+					bg: 'hsl(var(--dashboard-bg))',
+				},
+				navbar: {
+					bg: 'hsl(var(--navbar-bg))',
+				},
+				status: {
+					red: {
+						DEFAULT: 'hsl(var(--status-red))',
+						foreground: 'hsl(var(--status-red-foreground))'
+					},
+					blue: {
+						DEFAULT: 'hsl(var(--status-blue))',
+						foreground: 'hsl(var(--status-blue-foreground))'
+					},
+					green: {
+						DEFAULT: 'hsl(var(--status-green))',
+						foreground: 'hsl(var(--status-green-foreground))'
+					},
+					purple: {
+						DEFAULT: 'hsl(var(--status-purple))',
+						foreground: 'hsl(var(--status-purple-foreground))'
+					},
+					pink: {
+						DEFAULT: 'hsl(var(--status-pink))',
+						foreground: 'hsl(var(--status-pink-foreground))'
+					},
+					orange: {
+						DEFAULT: 'hsl(var(--status-orange))',
+						foreground: 'hsl(var(--status-orange-foreground))'
+					}
 				}
 			},
 			borderRadius: {
