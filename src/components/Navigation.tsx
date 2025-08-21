@@ -26,7 +26,7 @@ const menuItems = [
 
 export function Navigation() {
   return (
-    <aside className="w-48 bg-white border-r border-gray-100 h-screen fixed left-0 top-16">
+    <aside className="w-48 bg-white-50 border-r border-gray-100 h-screen fixed left-0 top-16">
       <nav className="p-4 space-y-1">
         {menuItems.map((item) => (
           <NavLink
