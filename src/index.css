@@ -8,61 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 248 250 252;
-    --foreground: 222 22% 16%;
+    --background: 240 248 255;
+    --foreground: 71 85 105;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 22% 16%;
+    --card-foreground: 71 85 105;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 22% 16%;
+    --popover-foreground: 71 85 105;
 
-    --primary: 239 84% 67%;
+    --primary: 239 68% 68%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 222 22% 16%;
+    --secondary: 226 100% 97%;
+    --secondary-foreground: 71 85 105;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 215 16% 57%;
+    --muted: 226 100% 97%;
+    --muted-foreground: 107 114 126;
 
-    --accent: 220 14% 96%;
-    --accent-foreground: 222 22% 16%;
+    --accent: 226 100% 97%;
+    --accent-foreground: 71 85 105;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 239 84% 67%;
+    --border: 226 100% 94%;
+    --input: 226 100% 94%;
+    --ring: 239 68% 68%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Dashboard specific colors */
-    --dashboard-bg: 248 250 252;
+    /* Exact colors from the reference image */
     --sidebar-bg: 0 0% 100%;
     --navbar-bg: 0 0% 100%;
+    --main-bg: 240 248 255;
     
-    /* Status colors - pastel theme */
-    --status-red: 0 84% 85%;
-    --status-red-foreground: 0 84% 25%;
-    --status-blue: 217 91% 85%;
-    --status-blue-foreground: 217 91% 25%;
-    --status-green: 142 71% 85%;
-    --status-green-foreground: 142 71% 25%;
-    --status-purple: 262 83% 85%;
-    --status-purple-foreground: 262 83% 25%;
-    --status-pink: 330 81% 85%;
-    --status-pink-foreground: 330 81% 25%;
-    --status-orange: 25 95% 85%;
-    --status-orange-foreground: 25 95% 25%;
-
-    /* Shadows */
-    --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --shadow-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-
-    /* Animations */
-    --transition-all: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Card colors matching the reference */
+    --card-pink: 350 100% 88%;
+    --card-pink-icon: 350 100% 50%;
+    --card-blue: 217 100% 88%;
+    --card-blue-icon: 217 100% 50%;
+    --card-purple: 262 100% 88%;
+    --card-purple-icon: 262 100% 50%;
+    --card-green: 142 100% 88%;
+    --card-green-icon: 142 100% 50%;
+    
+    /* Text colors */
+    --text-primary: 15 23 42;
+    --text-secondary: 100 116 139;
+    --text-light: 148 163 184;
 
     --sidebar-background: 0 0% 98%;
 
